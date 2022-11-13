@@ -8,7 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "author": "Sandra Noelia Rodriguez Escobar",
+  "author": "rubenbenitez",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.19"
