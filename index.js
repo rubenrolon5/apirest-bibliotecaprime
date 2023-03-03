@@ -1,7 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const cors= require('cors');
-
+require('dotenv').config();
 const servidor= express();
 
 servidor.use(morgan('dev'));
@@ -18,4 +18,5 @@ servidor.use("/sesion",require('./rutas/ruta-sesion'));
 
 servidor.listen(3000, ()=>{
     console.log("Servidor escuchando en el puerto 3000");
+
 });
